@@ -332,3 +332,9 @@ https://groups.drupal.org/node/309513
 
 ---
 
+## Resources
+
+[Google Rich Snippets Tool](http://www.google.com/webmasters/tools/richsnippets)
+
+
+
