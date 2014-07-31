@@ -135,11 +135,33 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
+# schema.org
+
+* Collaboration by Google, Microsoft, and Yahoo! to create a common vocabulary for describing the data on the Web.
+
+* Google currently supports rich snippets for people, events, reviews, products, recipes, and breadcrumb navigation.
+
+---
+
+# schema.org
+
+![Module](img/module.png)
+
+---
+
 # Google Rich Snippets
 
 ---
 
-# Schema.org Module
+# schema.org Module
+
+---
+
+# State of schema.org in Drupal 8
+
+![D8](img/d8.png)
+
+https://groups.drupal.org/node/309513
 
 ---
 
