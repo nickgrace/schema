@@ -196,11 +196,37 @@ Three syntaxes for embedding semantic data on Web:
 
 ## schema.org
 
+* Microdata vocabulary
+
+* Type hierarchy (top-level thing and data types)
+
+* Mappings to Web data vocabularies, including: DBpedia, Dublin Core, FOAF, Good Relations, SIOC, BIBO, WordNet. See: http://schema.rdfs.org/mappings.html
+
+---
+
+## schema.org
+
 * Collaboration by Google, Microsoft, and Yahoo! to create a common vocabulary for describing the data on the Web.
 
 * 570 million objects and more than 18 billion facts.
 
+* Used by over 1,000 sites.
+
+---
+
+## Web sites using Microdata
+
+![Trends](img/trends.png)
+
+http://trends.builtwith.com/docinfo/Microdata
+
+---
+
+## schema.org & Google
+
 * Google currently supports rich snippets for people, places, events, reviews, products, recipes, and breadcrumb navigation.
+
+* New schema entities to be utilized include job listings and medical trials.
 
 ---
 
@@ -240,49 +266,55 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets: People
+## Knowledge Graph
+
+![KG](img/google-kg.jpg)
+
+---
+
+## Knowledge Graph: People
 
 ![People](img/snippets-people.png)
 
 ---
 
-## Google Rich Snippets: Places
+## Knowledge Graph: Places
 
 ![Places](img/snippets-places.png)
 
 ---
 
-## Google Rich Snippets: Recipes
+## Knowledge Graph: Recipes
 
 ![Events](img/snippets-food.jpg)
 
 ---
 
-## Google Rich Snippets: Products
+## Knowledge Graph: Products
 
 ![Events](img/snippets-products.png)
 
 ---
 
-## Google Rich Snippets: Music
+## Knowledge Graph: Music
 
 ![People](img/snippets-music.jpg)
 
 ---
 
-## Google Rich Snippets: Businesses
+## Knowledge Graph: Businesses
 
 ![People](img/snippets-business01.png)
 
 ---
 
-## Google Rich Snippets: Events
+## Knowledge Graph: Events
 
 ![Events](img/snippets-events.jpg)
 
 ---
 
-## Google Rich Snippets: Timeline (beta)
+## Knowledge Graph: Timeline (beta)
 
 ![Timeline](img/knowledgegraph-timeline-2.jpg)
 
@@ -290,7 +322,7 @@ https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
 
 ---
 
-## Google Rich Snippets: Timeline (beta)
+## Knowledge Graph: Timeline (beta)
 
 ![Timeline](img/timeline-1.png)
 
@@ -298,17 +330,7 @@ https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
 
 ---
 
-## Google Rich Snippet Tool
-
-![Timeline](img/snippets-tool.png)
-
-http://www.google.com/webmasters/tools/richsnippets
-
----
-
-## Knowledge Graph
-
-![KG](img/google-kg.jpg)
+# schema.org Drupal Module
 
 ---
 
