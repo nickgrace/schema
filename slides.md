@@ -119,7 +119,7 @@ Established the power of content
 
 ![Hummingbird](img/google-hummingbird-fastwebmedia2-300x200.jpg)
 
- Context, Semantics, Conversational Search
+Context, Semantics, Conversational Search
 
 ---
 
