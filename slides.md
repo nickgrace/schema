@@ -115,6 +115,12 @@ Established the power of content
 
 ---
 
+## May 2012: Knowledge Graph
+
+![Knowledge Graph](img/knowledge.jpg)
+
+---
+
 ## Aug 2013: Hummingbird Algorithm
 
 ![Hummingbird](img/google-hummingbird-fastwebmedia2.jpg)
@@ -150,6 +156,22 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 ---
 
 ## Google Rich Snippets
+
+---
+
+## Google Rich Snippets: Timeline (beta)
+
+![Timeline](img/knowledgegraph-timeline-2.jpg)
+
+https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
+
+---
+
+## Google Rich Snippets: Timeline (beta)
+
+![Timeline](img/timeline-1.png)
+
+https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
 
 ---
 
