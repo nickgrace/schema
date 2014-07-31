@@ -193,13 +193,13 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ## Google Rich Snippets: Businesses
 
-![People](img/snippets-business01.jpg)
+![People](img/snippets-business01.png)
 
 ---
 
 ## Google Rich Snippets: Organizations
 
-![People](img/snippets-business02.jpg)
+![People](img/snippets-business02.png)
 
 ---
 
