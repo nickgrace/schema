@@ -383,11 +383,11 @@ https://groups.drupal.org/node/309513
 ---
 
 ## Schema.org Medical Study HTML
-
+```
 <div itemscope itemtype="http://schema.org/MedicalTrial">
 <h1 itemprop=""></h1>
 </div>
-
+```
 ---
 
 ## Content Syndication
@@ -403,9 +403,9 @@ https://api.hhs.gov/
 ---
 
 ## Schema.org Medical Study JSON-LD 
-
+```
 { "@context": { (@type) "schema": "http://schema.org/", "Person": "schema:Person", "colleagues": {"@id": "schema:colleagues", "@type": "@id"}, "name": "schema:name", "image": {"@id": "schema:image", "@type": "@id"}, "url": {"@id": "schema:url", "@type": "@id"} } } { "@context": "http://example.com/context.jsonld", "@type": "Person", "image": "http://localhost:9393/examples/schema.org/janedoe.jpg", "colleagues": [ "http://www.xyz.edu/students/alicejones.html", "http://www.xyz.edu/students/bobsmith.html" ], "name": "Jane Doe", "url": "http://www.janedoe.com" }
-
+```
 ---
 
 ## Web Components
