@@ -175,7 +175,7 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ## Google Rich Snippets: Recipes
 
-![Events](img/snippets-food.png)
+![Events](img/snippets-food.jpg)
 
 ---
 
