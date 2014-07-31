@@ -83,12 +83,6 @@
 
 ---
 
-## Content Farms
-
-![MFA](img/ehow.jpg)
-
----
-
 ## Sep 2003: Florida Update & Death to Keyword Stuffing
 
 ![Florida Update](img/keyword-stuffing.jpg)
@@ -115,9 +109,15 @@ Established the power of content
 
 ---
 
+## Content Farms
+
+![MFA](img/ehow.jpg)
+
+---
+
 ## Aug 2013: Hummingbird Algorithm
 
-![Hummingbird](img/google-hummingbird-fastwebmedia2-300x200.jpg)
+![Hummingbird](img/google-hummingbird-fastwebmedia2.jpg)
 
 Context, Semantics, Conversational Search
 
