@@ -145,7 +145,9 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 * Collaboration by Google, Microsoft, and Yahoo! to create a common vocabulary for describing the data on the Web.
 
-* Google currently supports rich snippets for people, events, reviews, products, recipes, and breadcrumb navigation.
+* 570 million objects and more than 18 billion facts.
+
+* Google currently supports rich snippets for people, places, events, reviews, products, recipes, and breadcrumb navigation.
 
 ---
 
@@ -156,6 +158,54 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 ---
 
 ## Google Rich Snippets
+
+---
+
+## Google Rich Snippets: People
+
+![People](img/snippets-people.png)
+
+---
+
+## Google Rich Snippets: Places
+
+![Places](img/snippets-places.png)
+
+---
+
+## Google Rich Snippets: Recipes
+
+![Events](img/snippets-food.png)
+
+---
+
+## Google Rich Snippets: Products
+
+![Events](img/snippets-products.png)
+
+---
+
+## Google Rich Snippets: Music
+
+![People](img/snippets-music.jpg)
+
+---
+
+## Google Rich Snippets: Businesses
+
+![People](img/snippets-business01.jpg)
+
+---
+
+## Google Rich Snippets: Organizations
+
+![People](img/snippets-business02.jpg)
+
+---
+
+## Google Rich Snippets: Events
+
+![Events](img/snippets-events.png)
 
 ---
 
@@ -172,6 +222,22 @@ https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
 ![Timeline](img/timeline-1.png)
 
 https://plus.google.com/+FlorianKiersch/posts/Eryy2punSVF
+
+---
+
+## Google Rich Snippet Tool
+
+![Timeline](img/snippets-tool.png)
+
+http://www.google.com/webmasters/tools/richsnippets
+
+---
+
+## Google Rich Snippet Tool
+
+![Timeline](img/snippets-tool.png)
+
+http://www.google.com/webmasters/tools/richsnippets
 
 ---
 
