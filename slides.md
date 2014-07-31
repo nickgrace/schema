@@ -19,8 +19,8 @@
 ## Agenda
 
 * History of SEO
-* Google's Knowledge Graph
 * Google Rich Snippets
+* Google's Knowledge Graph
 * Schema.org Module
 
 ---
@@ -135,6 +135,62 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
+# Rich Snippets
+
+---
+
+## Google Rich Snippets
+
+Three syntaxes for embedding semantic data on Web:
+
+* Microdata
+* Microformats
+* RDFa
+
+---
+
+## Google Rich Snippets: Microdata
+
+```
+<div itemscope itemtype="http://data-vocabulary.org/Person"> 
+  My name is <span itemprop="name">Mike Nescot</span> 
+  but people call me <span itemprop="nickname">Mike</span>. 
+  I live in Washington, DC and work as <span itemprop="title">Web Operations Manager</span>
+  for <span itemprop="affiliation">JBS International, Inc.</span>.
+</div>
+```
+
+---
+
+## Google Rich Snippets: Microformats (hcard)
+
+```
+<div class="vcard">
+   <strong class="fn">Mike Nescot</strong>
+   <span class="title">Web Operations Manager</span> at <span class="org">JBS International, Inc.</span>
+   <span class="adr">
+      <span class="street-address">5515 Security Lane, Suite 800</span>
+      <span class="locality">north Bethesda</span>, <span class="region">MD</span>
+      <span class="postal-code">20852</span>
+   </span>
+</div> 
+```
+
+---
+
+## Google Rich Snippets: RDFa
+
+```
+<div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Person">
+  My name is <span property="v:name">Mike Nescot</span>, 
+  but people call me <span property="v:nickname">Mike</span>.
+  I live in Washington, DC and work as <span property="v:title">Web Operations Manager</span>
+  for <span property="v:affiliation">JBS International, Inc.</span>.
+</div>
+```
+
+---
+
 ## Knowledge Graph
 
 ![KG](img/google-kg.jpg)
@@ -151,9 +207,25 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
-## schema.org
+## schema.org: Event
 
-![Module](img/module.png)
+![People](img/sinkane.png)
+
+```
+<div itemscope itemtype="http://schema.org/Event">
+  <div itemprop="name">Sinkane</div>
+  Event date:
+  <time itemprop="startDate" datetime="2014-09-09T20:15:00+0200">May 8, 7:30pm</time>
+  <p class="location" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+  	<span itemprop="name" class="venue-name"><a href="/venues/560151-de-helling" itemprop="url">De Helling</a>,</span>
+  	Utrecht, Netherlands
+    <span itemprop="geo" itemscope="" itemtype="http://schema.org/GeoCoordinates">
+    <meta itemprop="latitude" content="52.0768309">
+    <meta itemprop="longitude" content="5.1217635">
+    </span>
+  </p>
+</div>
+```
 
 ---
 
@@ -242,6 +314,10 @@ http://www.google.com/webmasters/tools/richsnippets
 ---
 
 ## schema.org Module
+
+![Module](img/module.png)
+
+https://www.drupal.org/project/schemaorg
 
 ---
 
