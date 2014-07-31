@@ -380,5 +380,7 @@ https://groups.drupal.org/node/309513
 
 [Schema.org Drupal Module Tutorial](https://www.drupal.org/node/1194024)
 
+---
 
+## Content Syndication
 
