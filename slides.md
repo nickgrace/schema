@@ -210,6 +210,20 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
+## schema.org: Person
+
+![People](img/dries.png)
+
+```
+<div itemscope itemtype="http://schema.org/Person">
+  <span itemprop="name">Dries Buytaert</span>
+  <span itemprop="jobTitle">Chief Technology Officer</span>
+  <span itemprop="schema:affiliation">Acquia, Inc.</span>
+</div>
+```
+
+---
+
 ## schema.org: Event
 
 ![People](img/sinkane.png)
@@ -308,14 +322,6 @@ http://www.google.com/webmasters/tools/richsnippets
 
 ---
 
-## Google Rich Snippet Tool
-
-![Timeline](img/snippets-tool.png)
-
-http://www.google.com/webmasters/tools/richsnippets
-
----
-
 ## schema.org Module
 
 ![Module](img/module.png)
@@ -334,7 +340,11 @@ https://groups.drupal.org/node/309513
 
 ## Resources
 
-[Google Rich Snippets Tool](http://www.google.com/webmasters/tools/richsnippets)
+[Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets)
+
+[Structured Data Markup Helper](https://www.google.com/webmasters/markup-helper/u/0/)
+
+[Schema.org Drupal Module](https://www.drupal.org/project/schemaorg)
 
 
 
