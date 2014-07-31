@@ -167,10 +167,11 @@ Three syntaxes for embedding semantic data on Web:
 ```
 <div class="vcard">
    <strong class="fn">Mike Nescot</strong>
-   <span class="title">Web Operations Manager</span> at <span class="org">JBS International, Inc.</span>
+   <span class="title">Web Operations Manager</span> at 
+   <span class="org">JBS International, Inc.</span>
    <span class="adr">
       <span class="street-address">5515 Security Lane, Suite 800</span>
-      <span class="locality">north Bethesda</span>, <span class="region">MD</span>
+      <span class="locality">North Bethesda</span>, <span class="region">MD</span>
       <span class="postal-code">20852</span>
    </span>
 </div> 
