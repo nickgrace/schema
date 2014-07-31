@@ -205,7 +205,7 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ## Google Rich Snippets: Events
 
-![Events](img/snippets-events.png)
+![Events](img/snippets-events.jpg)
 
 ---
 
