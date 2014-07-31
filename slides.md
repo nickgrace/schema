@@ -19,7 +19,7 @@
 ## Agenda
 
 * History of SEO
-* Google Rich Snippets
+* Rich Snippets
 * Google's Knowledge Graph
 * Schema.org Module
 
@@ -139,7 +139,7 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
-## Google Rich Snippets
+## Rich Snippets
 
 Three syntaxes for embedding semantic data on Web:
 
@@ -149,7 +149,7 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets: Microdata
+## Rich Snippets: Microdata
 
 ```
 <div itemscope itemtype="http://data-vocabulary.org/Person"> 
@@ -162,7 +162,7 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets: Microformats (hcard)
+## Rich Snippets: Microformats (hcard)
 
 ```
 <div class="vcard">
@@ -180,7 +180,7 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets: RDFa
+## Rich Snippets: RDFa
 
 ```
 <div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Person">
@@ -191,12 +191,6 @@ Three syntaxes for embedding semantic data on Web:
   for <span property="v:affiliation">JBS International, Inc.</span>.
 </div>
 ```
-
----
-
-## Knowledge Graph
-
-![KG](img/google-kg.jpg)
 
 ---
 
@@ -246,10 +240,6 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets
-
----
-
 ## Google Rich Snippets: People
 
 ![People](img/snippets-people.png)
@@ -286,12 +276,6 @@ Three syntaxes for embedding semantic data on Web:
 
 ---
 
-## Google Rich Snippets: Organizations
-
-![People](img/snippets-business02.png)
-
----
-
 ## Google Rich Snippets: Events
 
 ![Events](img/snippets-events.jpg)
@@ -322,11 +306,23 @@ http://www.google.com/webmasters/tools/richsnippets
 
 ---
 
+## Knowledge Graph
+
+![KG](img/google-kg.jpg)
+
+---
+
 ## schema.org Module
 
 ![Module](img/module.png)
 
 https://www.drupal.org/project/schemaorg
+
+---
+
+## schema.org Module
+
+Screen
 
 ---
 
@@ -345,6 +341,8 @@ https://groups.drupal.org/node/309513
 [Structured Data Markup Helper](https://www.google.com/webmasters/markup-helper/u/0/)
 
 [Schema.org Drupal Module](https://www.drupal.org/project/schemaorg)
+
+[Schema.org Drupal Module Tutorial](https://www.drupal.org/node/1194024)
 
 
 
