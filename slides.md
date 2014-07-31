@@ -186,7 +186,8 @@ Three syntaxes for embedding semantic data on Web:
 <div xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Person">
   My name is <span property="v:name">Mike Nescot</span>, 
   but people call me <span property="v:nickname">Mike</span>.
-  I live in Washington, DC and work as <span property="v:title">Web Operations Manager</span>
+  I live in Washington, DC and work as 
+  <span property="v:title">Web Operations Manager</span>
   for <span property="v:affiliation">JBS International, Inc.</span>.
 </div>
 ```
