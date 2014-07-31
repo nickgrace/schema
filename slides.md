@@ -129,13 +129,13 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
-# Knowledge Graph
+## Knowledge Graph
 
 ![KG](img/google-kg.jpg)
 
 ---
 
-# schema.org
+## schema.org
 
 * Collaboration by Google, Microsoft, and Yahoo! to create a common vocabulary for describing the data on the Web.
 
@@ -143,21 +143,21 @@ http://googleitalia.blogspot.com/2013_09_01_archive.html
 
 ---
 
-# schema.org
+## schema.org
 
 ![Module](img/module.png)
 
 ---
 
-# Google Rich Snippets
+## Google Rich Snippets
 
 ---
 
-# schema.org Module
+## schema.org Module
 
 ---
 
-# State of schema.org in Drupal 8
+## State of schema.org in Drupal 8
 
 ![D8](img/d8.png)
 
