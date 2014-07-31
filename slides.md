@@ -370,6 +370,57 @@ https://groups.drupal.org/node/309513
 
 ---
 
+## The Rise of HTML 
+
+![First Web Site](img/firstweb.png)
+
+---
+
+## The Fall of HTML 
+
+![Word to HTML](img/firstweb-word.png)
+
+---
+
+## Schema.org Medical Study HTML
+
+<div itemscope itemtype="http://schema.org/MedicalTrial">
+<h1 itemprop=""></h1>
+</div>
+
+---
+
+## Content Syndication
+
+https://syndication.hhs.gov/
+
+---
+
+## Content Syndication
+
+https://api.hhs.gov/
+
+---
+
+## Schema.org Medical Study JSON-LD 
+
+{ "@context": { (@type) "schema": "http://schema.org/", "Person": "schema:Person", "colleagues": {"@id": "schema:colleagues", "@type": "@id"}, "name": "schema:name", "image": {"@id": "schema:image", "@type": "@id"}, "url": {"@id": "schema:url", "@type": "@id"} } } { "@context": "http://example.com/context.jsonld", "@type": "Person", "image": "http://localhost:9393/examples/schema.org/janedoe.jpg", "colleagues": [ "http://www.xyz.edu/students/alicejones.html", "http://www.xyz.edu/students/bobsmith.html" ], "name": "Jane Doe", "url": "http://www.janedoe.com" }
+
+---
+
+## Web Components
+
+---
+
+## JSON-LD
+
+[JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
+
+---
+Searchmetrics Report
+
+http://www.searchmetrics.com/media/documents/knowledge-base/searchmetrics_schemaorg-study_en_2014.pdf
+
 ## Resources
 
 [Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets)
@@ -380,7 +431,5 @@ https://groups.drupal.org/node/309513
 
 [Schema.org Drupal Module Tutorial](https://www.drupal.org/node/1194024)
 
----
 
-## Content Syndication
 
