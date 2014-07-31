@@ -210,7 +210,7 @@ Three syntaxes for embedding semantic data on Web:
 
 * 570 million objects and more than 18 billion facts.
 
-* Used by over 1,000 sites.
+* Used by over 1.5 million sites.
 
 ---
 
@@ -227,6 +227,14 @@ http://trends.builtwith.com/docinfo/Microdata
 * Google currently supports rich snippets for people, places, events, reviews, products, recipes, and breadcrumb navigation.
 
 * New schema entities to be utilized include job listings and medical trials.
+
+---
+
+## schema.org & Google
+
+> Google doesn't use markup for ranking purposes at this time - but rich snippets can make your Web pages appear more prominently in search results, so you may see an increase in traffic.
+
+[Google Schema.org FAQ](https://support.google.com/webmasters/answer/1211158?hl=en)
 
 ---
 
@@ -269,6 +277,12 @@ http://trends.builtwith.com/docinfo/Microdata
 ## Knowledge Graph
 
 ![KG](img/google-kg.jpg)
+
+---
+
+> It's why we've been working on an intelligent model—in geek-speak, a "graph"—that understands real-world entities and their relationships to one another: things, not strings.
+
+[Google Blog](http://googleblog.blogspot.com/2012/05/introducing-knowledge-graph-things-not.html)
 
 ---
 
