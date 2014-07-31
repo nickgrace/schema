@@ -280,7 +280,7 @@ http://trends.builtwith.com/docinfo/Microdata
 
 ---
 
-> It's why we've been working on an intelligent model—in geek-speak, a "graph"—that understands real-world entities and their relationships to one another: things, not strings.
+> It/'s why we/'ve been working on an intelligent model—in geek-speak, a /"graph/"—that understands real-world entities and their relationships to one another: things, not strings.
 
 [Google Blog](http://googleblog.blogspot.com/2012/05/introducing-knowledge-graph-things-not.html)
 
