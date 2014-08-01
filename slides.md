@@ -417,6 +417,7 @@ http://www.searchmetrics.com/media/documents/knowledge-base/searchmetrics_schema
 ### Schema.org: Medical Trial Schema Inheritance
 https://schema.org/MedicalTrial
 
+---
 
 ## Schema.org: Medical Study HTML
 ```
