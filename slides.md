@@ -382,7 +382,7 @@ https://groups.drupal.org/node/309513
 
 ---
 
-## Drupal 8 Simple, Clean HTML
+## Drupal 8: Simple, Clean HTML
 
 ```
 <!DOCTYPE html>
@@ -414,11 +414,11 @@ http://www.searchmetrics.com/media/documents/knowledge-base/searchmetrics_schema
 
 ---
 
-### Schema.org Medical Trial Schema Inheritance
+### Schema.org: Medical Trial Schema Inheritance
 https://schema.org/MedicalTrial
 
 
-## Schema.org Medical Study HTML
+## Schema.org: Medical Study HTML
 ```
 <div itemscope itemtype="http://schema.org/MedicalTrial">
 <h1 itemprop="Name">Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4)</h1>
@@ -456,19 +456,19 @@ https://schema.org/MedicalTrial
 ```
 ---
 
-## Content Syndication Store
+## HHS Content Syndication Store
 
 https://syndication.hhs.gov/
 
 ---
 
-## Content Syndication API
+## HHS Content Syndication API
 
 https://api.hhs.gov/
 
 ---
 
-## Content Syndication Clinical Trial
+## Content Syndication: Clinical Trial
 
 ```
 <div class="syndicate">
@@ -486,19 +486,19 @@ https://api.hhs.gov/
       
 ```
 ---
-## Content Syndication In Action
+## Content Syndication In Action: NIA
 
 ![Syndicated Content](img/synd.png)
 
 ---
 
-
-
-## JSON-LD
+## Schema.org and JSON-LD
 
 [JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
 
-## Schema.org Medical Trial JSON-LD
+---
+
+## Schema.org: Medical Trial JSON-LD
 
 ```
 { 
