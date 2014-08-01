@@ -357,12 +357,6 @@ https://www.drupal.org/project/schemaorg
 
 ---
 
-## schema.org Module
-
-Screen
-
----
-
 ## State of schema.org in Drupal 8
 
 ![D8](img/d8.png)
@@ -496,7 +490,7 @@ https://api.hhs.gov/
 
 ## Schema.org and JSON-LD
 
-[JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
+[JSON-LD, schema.org, and Google](https://developers.google.com/gmail/actions/reference/formats/json-ld)
 
 ---
 
@@ -603,8 +597,6 @@ trialdesigns = '
 '
  >
 
-
-
 </MedicalTrial>
 
 ```
@@ -612,7 +604,6 @@ trialdesigns = '
 ## Facebook React: Alternative Components
 * Virtual DOM
 http://facebook.github.io/react/
-
 
 ---
 
