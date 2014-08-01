@@ -4,9 +4,7 @@ http://nickgrace.github.io/schema
 
 ---
 
-## Hi! I'm...
-
-![JBS](img/logo-jbs.svg)
+## Hi! we're...
 
 * Nick Grace, front end development manager at [JBS International, Inc.](http://www.jbsinternational.com) I'm [@nickgrace](https://twitter.com/nickgrace) just about everywhere.
 
