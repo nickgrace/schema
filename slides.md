@@ -1,5 +1,7 @@
 # Schema.org, Drupal and the Future of SEO
 
+http://nickgrace.github.io/schema
+
 ---
 
 ## Hi! I'm...
@@ -608,6 +610,8 @@ http://facebook.github.io/react/
 ---
 
 ## Resources
+
+Slides: http://nickgrace.github.io/schema
 
 [Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets)
 
