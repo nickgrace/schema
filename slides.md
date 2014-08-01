@@ -6,6 +6,8 @@ http://nickgrace.github.io/schema
 
 ## Hi! I'm...
 
+![JBS](img/logo-jbs.svg)
+
 * Nick Grace, front end development manager at [JBS International, Inc.](http://www.jbsinternational.com) I'm [@nickgrace](https://twitter.com/nickgrace) just about everywhere.
 
 * Mike Nescot, web operations manager at [JBS International, Inc.](http://www.jbsinternational.com) I'm [@mnescot](https://twitter.com/mnescot) just about everywhere.
