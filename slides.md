@@ -22,6 +22,7 @@
 * Rich Snippets
 * Google's Knowledge Graph
 * Schema.org Module
+* The Future of Schemas, the DOM, and SEO
 
 ---
 
