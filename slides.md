@@ -382,10 +382,76 @@ https://groups.drupal.org/node/309513
 
 ---
 
+## Drupal 8 Simple, Clean HTML
+
+```
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    {{ page.head }}
+    <title>{{ head_title }}</title>
+    {{ page.styles }}
+    {{ page.scripts }}
+  </head>
+  <body{{ attributes }}>
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      {{ 'Skip to main content'|t }}
+    </a>
+    {{ page_top }}
+    {{ page.content }}
+    {{ page_bottom }}
+    {{ page.scripts('footer') }}
+  </body>
+</html>
+```
+---
+
+## Semanitc HTML ROI: Searchmetrics Report
+
++4 Positions
+
+http://www.searchmetrics.com/media/documents/knowledge-base/searchmetrics_schemaorg-study_en_2014.pdf
+
+---
+
+### Schema.org Medical Trial Schema Inheritance
+https://schema.org/MedicalTrial
+
+
 ## Schema.org Medical Study HTML
 ```
 <div itemscope itemtype="http://schema.org/MedicalTrial">
-<h1 itemprop=""></h1>
+<h1 itemprop="Name">Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4)</h1>
+<div itemprop="trialDesign" itemscope itemtype="http://schema.org/MedicalTrialDesign">
+<span itemprop="Name">Allocation: Randomized</span>	
+<div> itemprop="recognizingAuthority" itemscope itemtype="http://schema.org/Organization">
+<span itemprop="Name">National Library of Medicine</span>
+</div>
+</div> 
+<div itemprop="trialDesign" itemscope itemtype="http://schema.org/MedicalTrialDesign">
+<span itemprop="Name">Endpoint Classification: Efficacy Study</span>
+<span itemprop="recognizingAuthority" itemscope itemtype="http://schema.org/Organization">
+<span itemprop="Name">National Library of Medicine</span>
+</span>
+</div> 
+<div itemprop="trialDesign" itemscope itemtype="http://schema.org/MedicalTrialDesign">
+<span itemprop="Name">Intervention Model: Parallel Assignment</span>
+<div> itemprop="recognizingAuthority" itemscope itemtype="http://schema.org/Organization">
+<span itemprop="Name">National Library of Medicine</span>
+</div>
+</div> 
+<div itemprop="trialDesign" itemscope itemtype="http://schema.org/MedicalTrialDesign">
+<span itemprop="Name">Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor)</span>
+<div itemprop="recognizingAuthority" itemscope itemtype="http://schema.org/Organization">
+<span itemprop="Name">National Library of Medicine</span>
+</div>
+</div> 
+<div itemprop="trialDesign" itemscope itemtype="http://schema.org/MedicalTrialDesign">
+<span itemprop="Name">Primary Purpose: Treatment</span>
+<div itemprop="recognizingAuthority" itemscope itemtype="http://schema.org/Organization">
+<span itemprop="Name">National Library of Medicine</span>
+</div>
+</div> 
 </div>
 ```
 ---
@@ -404,7 +470,49 @@ https://api.hhs.gov/
 
 ## Schema.org Medical Study JSON-LD 
 ```
-{ "@context": { (@type) "schema": "http://schema.org/", "Person": "schema:Person", "colleagues": {"@id": "schema:colleagues", "@type": "@id"}, "name": "schema:name", "image": {"@id": "schema:image", "@type": "@id"}, "url": {"@id": "schema:url", "@type": "@id"} } } { "@context": "http://example.com/context.jsonld", "@type": "Person", "image": "http://localhost:9393/examples/schema.org/janedoe.jpg", "colleagues": [ "http://www.xyz.edu/students/alicejones.html", "http://www.xyz.edu/students/bobsmith.html" ], "name": "Jane Doe", "url": "http://www.janedoe.com" }
+{ 
+ "@context": "http://schema.org",
+ "@type": "MedicalTrial", 
+ "name":"Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4)",
+  
+  "trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Allocation: Randomized",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+  	},
+  	"trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Endpoint Classification: Efficacy Study",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+  	},
+  	"trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Intervention Model: Parallel Assignment",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+  	},
+  	"trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor)",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+  	},
+  	"trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Primary Purpose: Treatment",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+  	}
+
+  	}
+
 ```
 ---
 
@@ -416,10 +524,7 @@ https://api.hhs.gov/
 
 [JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
 
----
-Searchmetrics Report
 
-http://www.searchmetrics.com/media/documents/knowledge-base/searchmetrics_schemaorg-study_en_2014.pdf
 
 ## Resources
 
