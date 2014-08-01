@@ -456,19 +456,49 @@ https://schema.org/MedicalTrial
 ```
 ---
 
-## Content Syndication
+## Content Syndication Store
 
 https://syndication.hhs.gov/
 
 ---
 
-## Content Syndication
+## Content Syndication API
 
 https://api.hhs.gov/
 
 ---
 
-## Schema.org Medical Study JSON-LD
+## Content Syndication Clinical Trial
+
+```
+<div class="syndicate">
+<h1 class="title" id="page-title">Anti-Amyloid Treatment in Asymptomatic Alzheimer&#039;s Disease (A4)</h1>
+</div>        
+<div class="syndicate">
+<div class="field field-name-overall-status field-type-text field-label-above"><div class="field-label">Overall Status:&nbsp;</div><div class="field-items"><div class="field-item even">Recruiting</div></div></div><div class="field field-name-adear-brief-description field-type-text field-label-above"><div class="field-label">Brief Description:&nbsp;</div><div class="field-items"><div class="field-item even"><p>This study will test whether an investigational drug, solanezumab, can slow the progression of memory problems associated with amyloid, a protein that forms plaques in the brains of people with Alzheimer disease. Participants who have normal thinking and memory function but may be at risk for developing Alzheimer&#39;s dementia are invited to participate. All volunteers will undergo a positron emission tomography (PET) scan to be determine their&nbsp;brain amyloid levels.</p></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-qualifications field-type-field-collection field-label-above"><div class="field-label">Patient Qualifications:&nbsp;</div><div class="field-items"><div class="field-item even"><table class="field-collection-view-final sticky-enabled">
+ <thead><tr><th class="minimum_age">Min Age</th><th class="maximum_age">Max Age</th><th class="gender">Gender</th><th class="healthy_volunteers">Healthy Volunteers</th> </tr></thead>
+<tbody>
+ <tr class="field_collection_item odd"><td class="minimum_age"><div class="field field-name-minimum-age field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">65 Years</div></div></div></td><td class="maximum_age"><div class="field field-name-maximum-age field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">85 Years</div></div></div></td><td class="gender"><div class="field field-name-gender field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Both</div></div></div></td><td class="healthy_volunteers"><div class="field field-name-healthy-volunteers field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Yes</div></div></div></td> </tr>
+</tbody>
+</table>
+</div></div></div></div>
+</div>
+      
+```
+---
+## Content Syndication In Action
+
+![Syndicated Content](img/synd.png)
+
+---
+
+
+
+## JSON-LD
+
+[JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
+
+## Schema.org Medical Trial JSON-LD
 
 ```
 { 
@@ -520,13 +550,69 @@ https://api.hhs.gov/
 
 ## Web Components
 
+https://medium.com/cool-code-pal/introducing-web-components-and-what-it-means-for-search-engine-optimization-and-privacy-b21bfc1f63c7
+
+* Custom Elements
+* Shadow DOM
+* HTML Imports
+
+
 ---
 
-## JSON-LD
+## Web Components: Medical Trial
+```
+<MedicalTrial name='Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4)'
+trialdesigns = '
+"trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Allocation: Randomized",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+    },
+    "trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Endpoint Classification: Efficacy Study",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+    },
+    "trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Intervention Model: Parallel Assignment",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+    },
+    "trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Masking: Double Blind (Subject, Caregiver, Investigator, Outcomes Assessor)",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+    },
+    "trialDesign":{
+  "@type": "MedicalTrialDesign",
+  "name":"Primary Purpose: Treatment",
+  "recognizingAuthority":{
+  "name":"National Library of Medicine"
+    }
+    }
+'
+ >
 
-[JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
 
 
+</MedicalTrial>
+
+```
+---
+## Facebook React: Alternative Components
+* Virtual DOM
+http://facebook.github.io/react/
+
+
+---
 
 ## Resources
 
