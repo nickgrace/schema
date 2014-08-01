@@ -468,7 +468,8 @@ https://api.hhs.gov/
 
 ---
 
-## Schema.org Medical Study JSON-LD 
+## Schema.org Medical Study JSON-LD
+
 ```
 { 
  "@context": "http://schema.org",
@@ -514,6 +515,7 @@ https://api.hhs.gov/
   	}
 
 ```
+
 ---
 
 ## Web Components
