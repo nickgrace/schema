@@ -1,8 +1,10 @@
 # Schema.org, Drupal and the Future of SEO
 
+http://nickgrace.github.io/schema
+
 ---
 
-## Hi! I'm...
+## Hi! we're...
 
 * Nick Grace, front end development manager at [JBS International, Inc.](http://www.jbsinternational.com) I'm [@nickgrace](https://twitter.com/nickgrace) just about everywhere.
 
@@ -357,12 +359,6 @@ https://www.drupal.org/project/schemaorg
 
 ---
 
-## schema.org Module
-
-Screen
-
----
-
 ## State of schema.org in Drupal 8
 
 ![D8](img/d8.png)
@@ -496,7 +492,7 @@ https://api.hhs.gov/
 
 ## Schema.org and JSON-LD
 
-[JSON-LD, schema.org, and Google] (https://developers.google.com/gmail/actions/reference/formats/json-ld)
+[JSON-LD, schema.org, and Google](https://developers.google.com/gmail/actions/reference/formats/json-ld)
 
 ---
 
@@ -603,8 +599,6 @@ trialdesigns = '
 '
  >
 
-
-
 </MedicalTrial>
 
 ```
@@ -613,10 +607,11 @@ trialdesigns = '
 * Virtual DOM
 http://facebook.github.io/react/
 
-
 ---
 
 ## Resources
+
+Slides: http://nickgrace.github.io/schema
 
 [Google Structured Data Testing Tool](http://www.google.com/webmasters/tools/richsnippets)
 
